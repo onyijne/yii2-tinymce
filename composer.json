@@ -1,0 +1,22 @@
+{
+    "name": "tecsin/yii2-tinymce",
+    "description": "TinyMCE extension for Yii2, with elFinder as its file picker features.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","tinymce"],
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Samuel Onyijne",
+            "email": "samuel@sajflow.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "2amigos/yii2-tinymce-widget" : "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "tecsin\\tinymce\\": ""
+        }
+    }
+}

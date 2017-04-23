@@ -12,7 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "2amigos/yii2-tinymce-widget" : "~1.1"
+        "2amigos/yii2-tinymce-widget" : "~1.1",
+        "tecsin/yii2-elfinder" : "~1.0"
     },
     "autoload": {
         "psr-4": {

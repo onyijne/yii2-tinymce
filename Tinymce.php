@@ -8,7 +8,7 @@ namespace tecsin\tinymce;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
-use dosamigos\tinymce\TinyMce;
+use dosamigos\tinymce\TinyMce as DMce;
 
 /**
  *
@@ -18,7 +18,7 @@ use dosamigos\tinymce\TinyMce;
  * @link https://www.sajflow.com/samuel
  * @link https://www.sajflow.com
  */
-class Tinymce extends TinyMce
+class Tinymce extends DMce
 {
     /**
      * @var string the language to use. Defaults to null (en).
